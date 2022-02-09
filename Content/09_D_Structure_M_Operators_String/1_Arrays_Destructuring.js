@@ -12,6 +12,7 @@ const restaurant = {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
   },
 };
+
 const arr = [2, 3, 4];
 const a = arr[0];
 const b = arr[1];
