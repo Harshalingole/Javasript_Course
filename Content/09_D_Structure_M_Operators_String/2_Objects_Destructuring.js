@@ -53,7 +53,7 @@ console.log(menu, starters);
 let a = 111;
 let b = 999;
 const obj = {a:23,b:7,c:14};
-({a,b}) = obj;  // We need to use paranthesis() bcz if we just simply use curly braces {} then js will treat it as code block 
+({a,b} = obj);  // We need to use paranthesis() bcz if we just simply use curly braces {} then js will treat it as code block 
 console.log(a,b)
 
 //Nested Objects
