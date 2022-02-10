@@ -7,7 +7,7 @@
    3) Spread Operator is also similar to Destructuring as it helps to take array element out of array and also dosent creat new variables.
    4) We can only use in places where we would require to write value sperated by commas.
    5) Spread Operator Works on All so Called Iterables.
-       ? What Are Iterables : Arrays, string, maps, sets, ..Not objects
+      /* ? What Are Iterables : Arrays, string, maps, sets, ..Not objects
    6) We can also use spread operator in objects that is Curly brackets{} to unpacked.
    7) Multiple Value Seperated by Comma are only expected when we pass value in function or in new Array
    8) We cannot use spread Operator inside temperate leteral `${...str}`
@@ -91,7 +91,7 @@ console.log(letter);
 console.log(letters);
 // console.log(`${..str} harshal`) //Spred Operator Not work in temperate literal
 
-//Objects
+//Objects 
 const newRestaurant = { foundedIn: 1991, ...restaurant, founder: 'Harshal' };
 console.log(newRestaurant);
 
