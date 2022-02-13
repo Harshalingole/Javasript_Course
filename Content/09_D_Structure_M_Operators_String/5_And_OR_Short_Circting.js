@@ -18,7 +18,7 @@ console.log(true || 'jonas');
 console.log(undefined || null);
 
 console.log(undefined || 0 || '' || 'Hello' || 23 || null);
-console.log(undefined || 0 || '' || 14 || 'Hello' || 23 || null);
+// console.log(undefined || 0 || '' || 14 || 'Hello' || 23 || null);
 
 const restaurant = {
   name: 'Classico Italiano',
