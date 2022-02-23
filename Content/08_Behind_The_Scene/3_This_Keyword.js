@@ -49,10 +49,11 @@ console.log(calcAgeArrow(1991));
 //Method
 
 const student = {
+  name: 'harshal',
   year: 1991,
   calcAge: function () {
     // console.log(this);
-    console.log(this); // this point to jonas object
+    console.log(this); // this point to student object
   },
 };
 console.log(student.calcAge());
