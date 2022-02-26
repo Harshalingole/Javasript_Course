@@ -1,4 +1,4 @@
-'user strict';
+'use strict';
 // ------Clousuer Example-------
 
 // Examples Wili Demonstrate we dont need return function from another function In Order To Create  Clousure
@@ -40,7 +40,19 @@ const boardPassengers = function (n, wait) {
   console.log(`Will start boarding in ${wait} seconds`);
 };
 
-const perGroup = 1000;
+// const perGroup = 1000;
 // A clousure has priority over  even scope chain
 // Try it by commenting perGroup form boardPassenger
 boardPassengers(180, 3);
+
+
+
+const table = function (a,b) {
+  let arr = [];
+  for (let i = 1; i < b + 1; i++) {
+     arr.push(i * a)
+  }
+  return `table of ${a} ---> 
+   ${[...arr]}`
+}
+console.log(table(5,10))
